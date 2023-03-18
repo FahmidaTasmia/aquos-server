@@ -42,7 +42,7 @@ app.use((err, req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-  res.send("Team Server Is Running SuccesFully!")
+  res.send("Server Is Running SuccesFully!")
 })
 
 app.listen(8800, () => {
